@@ -41,3 +41,5 @@ The classifier resizes each crop to 128 × 128, accumulates unsigned orientation
 ## Credits
 
 The detection image is from the Brooklyn Museum collection via [scikit-image](https://scikit-image.org/docs/stable/api/skimage.data.html#skimage.data.coins), which records no known copyright restrictions. See [LICENSE](LICENSE) for the source code.
+
+CI checks installation, dependency compatibility, unit tests and CLI examples on Python 3.12 for each push and pull request. You can also run it from the Actions tab.
